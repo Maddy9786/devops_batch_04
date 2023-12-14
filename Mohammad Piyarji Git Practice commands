@@ -26,3 +26,4 @@ git checkout -b dev1
 
 git checkout master
 
+git remote -v
