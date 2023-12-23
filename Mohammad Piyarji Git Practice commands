@@ -24,6 +24,8 @@ git config --global user.email "piyarjimohammad@gmail.com"
 
 git checkout -b dev1
 
+git checkout dev1
+
 git checkout master
 
 git remote -v
@@ -37,4 +39,18 @@ git push origin main
 git remote set-url --add origin <newurl>
 
 git remote set-url --delete orgin <newurl>
+
+git merge dev/master
+
+git revert <commit ID>
+
+git reset <commit id>
+
+git diff # will get to know what was the diff there compared to pervious version 
+
+git push origin master --rebase
+
+git rebase master 
+
+git master --squash
 
