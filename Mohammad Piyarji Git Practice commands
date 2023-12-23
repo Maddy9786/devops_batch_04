@@ -54,3 +54,7 @@ git rebase master
 
 git master --squash
 
+git cherry-pick <commit id>
+
+vim .gitignore
+
