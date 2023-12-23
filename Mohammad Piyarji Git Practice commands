@@ -62,3 +62,4 @@ git stash
 
 git stash pop
 
+git branch -D staging 
