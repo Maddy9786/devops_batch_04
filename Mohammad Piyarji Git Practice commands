@@ -63,3 +63,7 @@ git stash
 git stash pop
 
 git branch -D staging 
+
+git pull origin main --ff
+
+git merge --abort
