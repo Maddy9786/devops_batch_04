@@ -58,3 +58,7 @@ git cherry-pick <commit id>
 
 vim .gitignore
 
+git stash
+
+git stash pop
+
